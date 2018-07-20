@@ -4,10 +4,10 @@
 
 ## スプリント
 
-[1stスプリント](Sprint/1st_sprint.md)
-[2ndスプリント](Sprint/2nd_sprint.md)
-[3rdスプリント](Sprint/3rd_sprint.md)
-[4thスプリント](Sprint/4th_sprint.md)
+[1stスプリント](Sprint/1st_sprint.md)  
+[2ndスプリント](Sprint/2nd_sprint.md)  
+[3rdスプリント](Sprint/3rd_sprint.md)  
+[4thスプリント](Sprint/4th_sprint.md)  
 
 ## 開発の流れ
 
