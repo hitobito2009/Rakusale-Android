@@ -18,7 +18,7 @@
 5. 編集ファイルをステージングに移す（ex. `git add .`）
 6. 編集ファイルをcommitする（ex. `git commit -m "何をしたのかを書く"`）
 7. ブランチからGithub上のoriginブランチにpushする（ex. `git push origin Branch名`）
-8. GitHub上でPullRequestする
+8. GitHub上でdevelopのブランチにPullRequestする
 
 ## 資料
 
