@@ -5,7 +5,9 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="purchase">購入する</string>
+    <string name="sell">販売する</string>
+    <string name="log_out">ログアウト</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     
