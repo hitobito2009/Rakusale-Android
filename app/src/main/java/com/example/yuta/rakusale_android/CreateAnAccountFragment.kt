@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -15,25 +16,33 @@ private const val ARG_PARAM2 = "param2"
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [SellerFragment.OnFragmentInteractionListener] interface
+ * [Create_an_AccountFragment.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [SellerFragment.newInstance] factory method to
+ * Use the [Create_an_AccountFragment.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-class SellerFragment : Fragment() {
+
+class CreateAnAccountFragment : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_seller, container, false)
+
+        val view = inflater.inflate(R.layout.fragment_create_an_account, container, false)
+
+        val button_create: Button = view.findViewById(R.id.create)
+
+        //buttonが押された時の処理
+        button_create.setOnClickListener {
+            fragmentManager?.run {
+                this.beginTransaction().replace(R.id.login_fragment_container, LoginFragment()).commit()
+            }
+        }
+
+        return view
     }
 
 
+
 }
-
-
-
-
-

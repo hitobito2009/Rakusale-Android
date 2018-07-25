@@ -17,13 +17,13 @@ private const val ARG_PARAM2 = "param2"
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [Create_an_AccountFragment.OnFragmentInteractionListener] interface
+ * [User_SelectFragment.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [Create_an_AccountFragment.newInstance] factory method to
+ * Use the [User_SelectFragment.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-class Create_an_AccountFragment : Fragment() {
+class User_SelectFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -40,7 +40,7 @@ class Create_an_AccountFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_create_an__account, container, false)
+        return inflater.inflate(R.layout.fragment_user_select, container, false)
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -85,12 +85,12 @@ class Create_an_AccountFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment Create_an_AccountFragment.
+         * @return A new instance of fragment User_SelectFragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-                Create_an_AccountFragment().apply {
+                User_SelectFragment().apply {
                     arguments = Bundle().apply {
                         putString(ARG_PARAM1, param1)
                         putString(ARG_PARAM2, param2)

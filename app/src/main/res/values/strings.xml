@@ -8,9 +8,14 @@
     <string name="purchase">購入する</string>
     <string name="sell">販売する</string>
     <string name="log_out">ログアウト</string>
+    <string name="log_in">ログイン</string>
+    <string name="account">アカウントを作成する</string>
+    <string name="add_name">名前を入力する</string>
+    <string name="product_registration">商品登録</string>
+    <string name="update_profile">プロフィールの更新</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    
+
     <!-- Create_an_account strings -->
     <string name="agree">同意する</string>
     <string name="create">作成</string>
@@ -21,5 +26,5 @@
     <!-- Price strings -->
     <string name="price">値段を入力してください</string>
     <string name="decide">決定</string>
-    
+
 </resources>
