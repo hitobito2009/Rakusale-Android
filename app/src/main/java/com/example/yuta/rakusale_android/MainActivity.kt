@@ -6,6 +6,7 @@ import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
+import com.example.yuta.rakusale_android.Seller.UserSelectFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         nav_view.setNavigationItemSelectedListener(this)
 
-        supportFragmentManager.beginTransaction().replace(R.id.main_fragment_container, SellerFragment()).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.main_fragment_container, UserSelectFragment()).commit()
 
     }
 

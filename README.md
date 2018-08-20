@@ -11,7 +11,7 @@
 
 ## 開発の流れ
 
-1. このリポジトリをcloneします（ex. `git clone https://github.com/2018-miraikeitai-org/Rakusale-Android.git`）
+1. このリポジトリをcloneします（ex. `git clone https://github.com/2018-miraikeitai-org/Rakusale-Android.git`）pu
 2. cloneしたディレクトリに移動する（ex. `cd Rakusale-Android`)
 3. 作業する名前のBranchを作成する（ex. `git checkout -b 作業名`）
 4. cloneしたディレクトリで編集する

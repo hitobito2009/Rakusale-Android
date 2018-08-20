@@ -1,11 +1,11 @@
-package com.example.yuta.rakusale_android
+package com.example.yuta.rakusale_android.Seller
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
+import com.example.yuta.rakusale_android.R
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -16,32 +16,22 @@ private const val ARG_PARAM2 = "param2"
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [Create_an_AccountFragment.OnFragmentInteractionListener] interface
+ * [User_SelectFragment.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [Create_an_AccountFragment.newInstance] factory method to
+ * Use the [User_SelectFragment.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-
-class CreateAnAccountFragment : Fragment() {
-
-
+class UserSelectFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-
-        val view = inflater.inflate(R.layout.fragment_create_an_account, container, false)
-
-        val button_create: Button = view.findViewById(R.id.create)
-
-        //buttonが押された時の処理
-        button_create.setOnClickListener {
-            fragmentManager?.run {
-                this.beginTransaction().replace(R.id.login_fragment_container, LoginFragment()).commit()
-            }
-        }
-
-        return view
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_user_select, container, false)
     }
+
+
+
+
 
 
 

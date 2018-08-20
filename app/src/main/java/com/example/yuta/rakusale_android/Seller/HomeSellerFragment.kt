@@ -1,10 +1,11 @@
-package com.example.yuta.rakusale_android
+package com.example.yuta.rakusale_android.Seller
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.yuta.rakusale_android.R
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -27,7 +28,7 @@ class SellerFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_seller, container, false)
+        return inflater.inflate(R.layout.fragment_home_seller, container, false)
     }
 
 
