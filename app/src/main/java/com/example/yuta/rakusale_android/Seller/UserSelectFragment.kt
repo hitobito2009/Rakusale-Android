@@ -16,9 +16,9 @@ private const val ARG_PARAM2 = "param2"
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [User_SelectFragment.OnFragmentInteractionListener] interface
+ * [UserSelectFragment.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [User_SelectFragment.newInstance] factory method to
+ * Use the [UserSelectFragment.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
