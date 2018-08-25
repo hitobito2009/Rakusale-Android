@@ -12,6 +12,9 @@
         <item
             android:id="@+id/nav_sell"
             android:title="@string/sell" />
+        <item
+            android:id="@+id/nav_purchase_history"
+            android:title="@string/purchase_history" />
     </group>
 
     <group
